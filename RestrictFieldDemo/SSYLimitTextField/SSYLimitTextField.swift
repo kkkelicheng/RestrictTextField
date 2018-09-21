@@ -243,6 +243,10 @@ extension SSYLimitTextField {
     
     func checkStringIsValid(checkString : String) -> Bool {
         
+        if checkString.isEmpty {
+            return true;
+        }
+        
         if let regExpressions = self.regExs , regExpressions.count > 0 {
             for regExpression in regExpressions {
                 let predicate = NSPredicate(format: "SELF MATCHES %@", regExpression);
