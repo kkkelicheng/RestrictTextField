@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D453A22151F9DF00660412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D453A12151F9DF00660412 /* AppDelegate.swift */; };
+		A4D453A42151F9DF00660412 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D453A32151F9DF00660412 /* ViewController.swift */; };
+		A4D453A72151F9DF00660412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D453A52151F9DF00660412 /* Main.storyboard */; };
+		A4D453A92151F9E100660412 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D453A82151F9E100660412 /* Assets.xcassets */; };
+		A4D453AC2151F9E100660412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D453AA2151F9E100660412 /* LaunchScreen.storyboard */; };
+		A4D453B72151FA4F00660412 /* SSYRegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D453B42151FA4E00660412 /* SSYRegEx.swift */; };
+		A4D453B82151FA4F00660412 /* SSYLimitTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D453B52151FA4E00660412 /* SSYLimitTextField.swift */; };
+		A4D453B92151FA4F00660412 /* SSYLimitTextField+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D453B62151FA4F00660412 /* SSYLimitTextField+Create.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4D4539E2151F9DF00660412 /* RestrictFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestrictFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D453A12151F9DF00660412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D453A32151F9DF00660412 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D453A62151F9DF00660412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D453A82151F9E100660412 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D453AB2151F9E100660412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D453AD2151F9E100660412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D453B42151FA4E00660412 /* SSYRegEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSYRegEx.swift; sourceTree = "<group>"; };
+		A4D453B52151FA4E00660412 /* SSYLimitTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSYLimitTextField.swift; sourceTree = "<group>"; };
+		A4D453B62151FA4F00660412 /* SSYLimitTextField+Create.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SSYLimitTextField+Create.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D4539B2151F9DF00660412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D453952151F9DE00660412 = {
+			isa = PBXGroup;
+			children = (
+				A4D453A02151F9DF00660412 /* RestrictFieldDemo */,
+				A4D4539F2151F9DF00660412 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D4539F2151F9DF00660412 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4539E2151F9DF00660412 /* RestrictFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D453A02151F9DF00660412 /* RestrictFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4D453B32151F9E600660412 /* SSYLimitTextField */,
+				A4D453A12151F9DF00660412 /* AppDelegate.swift */,
+				A4D453A32151F9DF00660412 /* ViewController.swift */,
+				A4D453A52151F9DF00660412 /* Main.storyboard */,
+				A4D453A82151F9E100660412 /* Assets.xcassets */,
+				A4D453AA2151F9E100660412 /* LaunchScreen.storyboard */,
+				A4D453AD2151F9E100660412 /* Info.plist */,
+			);
+			path = RestrictFieldDemo;
+			sourceTree = "<group>";
+		};
+		A4D453B32151F9E600660412 /* SSYLimitTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A4D453B42151FA4E00660412 /* SSYRegEx.swift */,
+				A4D453B52151FA4E00660412 /* SSYLimitTextField.swift */,
+				A4D453B62151FA4F00660412 /* SSYLimitTextField+Create.swift */,
+			);
+			path = SSYLimitTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D4539D2151F9DF00660412 /* RestrictFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D453B02151F9E100660412 /* Build configuration list for PBXNativeTarget "RestrictFieldDemo" */;
+			buildPhases = (
+				A4D4539A2151F9DF00660412 /* Sources */,
+				A4D4539B2151F9DF00660412 /* Frameworks */,
+				A4D4539C2151F9DF00660412 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestrictFieldDemo;
+			productName = RestrictFieldDemo;
+			productReference = A4D4539E2151F9DF00660412 /* RestrictFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D453962151F9DE00660412 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ShuShangYun;
+				TargetAttributes = {
+					A4D4539D2151F9DF00660412 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A4D453992151F9DE00660412 /* Build configuration list for PBXProject "RestrictFieldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D453952151F9DE00660412;
+			productRefGroup = A4D4539F2151F9DF00660412 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D4539D2151F9DF00660412 /* RestrictFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D4539C2151F9DF00660412 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D453AC2151F9E100660412 /* LaunchScreen.storyboard in Resources */,
+				A4D453A92151F9E100660412 /* Assets.xcassets in Resources */,
+				A4D453A72151F9DF00660412 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D4539A2151F9DF00660412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D453B92151FA4F00660412 /* SSYLimitTextField+Create.swift in Sources */,
+				A4D453A42151F9DF00660412 /* ViewController.swift in Sources */,
+				A4D453B82151FA4F00660412 /* SSYLimitTextField.swift in Sources */,
+				A4D453B72151FA4F00660412 /* SSYRegEx.swift in Sources */,
+				A4D453A22151F9DF00660412 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4D453A52151F9DF00660412 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D453A62151F9DF00660412 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D453AA2151F9E100660412 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D453AB2151F9E100660412 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D453AE2151F9E100660412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D453AF2151F9E100660412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D453B12151F9E100660412 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5375HS528S;
+				INFOPLIST_FILE = RestrictFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shushangyun.RestrictFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D453B22151F9E100660412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5375HS528S;
+				INFOPLIST_FILE = RestrictFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shushangyun.RestrictFieldDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D453992151F9DE00660412 /* Build configuration list for PBXProject "RestrictFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D453AE2151F9E100660412 /* Debug */,
+				A4D453AF2151F9E100660412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D453B02151F9E100660412 /* Build configuration list for PBXNativeTarget "RestrictFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D453B12151F9E100660412 /* Debug */,
+				A4D453B22151F9E100660412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D453962151F9DE00660412 /* Project object */;
+}
