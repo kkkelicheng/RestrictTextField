@@ -11,6 +11,7 @@
 - 金额输入(限制2位小数输入)
 - 限制最大的输入长度
 - 中文限制
+- 禁止输入emoji(请看`OCDemo中`的`[SSYRestrictField createNOEmoji]`例子)
 - 其他
 
 # 特点

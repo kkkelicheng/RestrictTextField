@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A42FC80D215CC77A008F8B14 /* SSYRestrictField+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = A42FC80C215CC77A008F8B14 /* SSYRestrictField+Create.m */; };
+		A445C0BA218319D6007EF356 /* NSString+Help.m in Sources */ = {isa = PBXBuildFile; fileRef = A445C0B9218319D6007EF356 /* NSString+Help.m */; };
 		A49B25AF215B80CE00072A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A49B25AE215B80CE00072A0E /* AppDelegate.m */; };
 		A49B25B2215B80CF00072A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A49B25B1215B80CF00072A0E /* ViewController.m */; };
 		A49B25B5215B80CF00072A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49B25B3215B80CF00072A0E /* Main.storyboard */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		A42FC80B215CC77A008F8B14 /* SSYRestrictField+Create.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSYRestrictField+Create.h"; sourceTree = "<group>"; };
 		A42FC80C215CC77A008F8B14 /* SSYRestrictField+Create.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SSYRestrictField+Create.m"; sourceTree = "<group>"; };
+		A445C0B8218319D6007EF356 /* NSString+Help.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Help.h"; sourceTree = "<group>"; };
+		A445C0B9218319D6007EF356 /* NSString+Help.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Help.m"; sourceTree = "<group>"; };
 		A49B25AA215B80CE00072A0E /* RestrictField_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestrictField_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49B25AD215B80CE00072A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A49B25AE215B80CE00072A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 				A49B25AE215B80CE00072A0E /* AppDelegate.m */,
 				A49B25B0215B80CE00072A0E /* ViewController.h */,
 				A49B25B1215B80CF00072A0E /* ViewController.m */,
+				A445C0B8218319D6007EF356 /* NSString+Help.h */,
+				A445C0B9218319D6007EF356 /* NSString+Help.m */,
 				A49B25B3215B80CF00072A0E /* Main.storyboard */,
 				A49B25B6215B80D000072A0E /* Assets.xcassets */,
 				A49B25B8215B80D000072A0E /* LaunchScreen.storyboard */,
@@ -163,6 +168,7 @@
 				A49B25B2215B80CF00072A0E /* ViewController.m in Sources */,
 				A49B25BD215B80D000072A0E /* main.m in Sources */,
 				A42FC80D215CC77A008F8B14 /* SSYRestrictField+Create.m in Sources */,
+				A445C0BA218319D6007EF356 /* NSString+Help.m in Sources */,
 				A49B25AF215B80CE00072A0E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

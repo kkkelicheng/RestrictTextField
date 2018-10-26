@@ -38,6 +38,12 @@
     priceTF.countLimit = 6;
     [self.view addSubview:priceTF];
     
+    SSYRestrictField * noEmojiTF = [SSYRestrictField createNOEmoji];
+    noEmojiTF.backgroundColor = [UIColor yellowColor];
+    noEmojiTF.frame = CGRectMake(10, 200, SCREEN_WDITH - 20, 30);
+    noEmojiTF.countLimit = 6;
+    [self.view addSubview:noEmojiTF];
+    
 }
 
 - (void)didReceiveMemoryWarning {

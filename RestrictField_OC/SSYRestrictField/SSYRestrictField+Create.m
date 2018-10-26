@@ -43,5 +43,25 @@
     return tf;
 }
 
++(instancetype)createNOEmoji
+{
+    SSYRestrictField * tf = [[SSYRestrictField alloc]initWithFrame:CGRectZero];
+    
+    SSYRestrictBlock myBlock = ^(NSString * txt){
+        if (!txt || txt.length < 1) {
+            return YES;
+        }
+        if ([txt isContainsEmoji]) {
+            return NO;
+        }
+        return YES;
+    };
+    
+    [tf addVertifies:@[myBlock]];
+    
+    return tf;
+}
+
+
 
 @end

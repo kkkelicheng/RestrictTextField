@@ -7,11 +7,13 @@
 //
 
 #import "SSYRestrictField.h"
+#import "NSString+Help.h"
 
 @interface SSYRestrictField (Create)
 
 +(instancetype)createPriceTF;
 +(instancetype)createLetterNumberTF;
 +(instancetype)createChineseTF;
++(instancetype)createNOEmoji;
 
 @end
