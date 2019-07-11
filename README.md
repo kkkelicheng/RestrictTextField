@@ -33,3 +33,8 @@
 # demo样式
 ![demoImage](https://github.com/kkkelicheng/RestrictTextField/blob/master/sampleImage.png)
 
+# 已知待优化点
+在直接给textfield进行赋值后，进行删除字符操作会有崩溃。
+重现过程：
+textfield 限制6位输入，但是直接赋值（textField.text = "12345678"）到了8位，因为不走delegate所以不会进行判断。
+然后进行删除操作。
